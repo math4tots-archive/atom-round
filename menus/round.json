@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Round number to nearest integer",
+        "command": "round:round"
+      },
+      {
+        "label": "Round to nearest centi",
+        "command": "round:round"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Round",
+          "submenu": [
+            {
+              "label": "Round number to nearest integer",
+              "command": "round:round"
+            },
+            {
+              "label": "Round number to nearest 0.01",
+              "command": "round:centi-round"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
