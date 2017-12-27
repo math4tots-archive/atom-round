@@ -1,7 +1,7 @@
 {
   "name": "round",
   "main": "./lib/round",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A dead simple Atom plugin for rounding numbers.",
   "keywords": [],
   "repository": "https://github.com/math4tots/atom-round",
